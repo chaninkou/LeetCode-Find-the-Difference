@@ -13,9 +13,12 @@ public class FindTheDifferenceOfTwoStringFunction {
         }
         
         for(char c : t.toCharArray()){
+        	// If map contain the key and value is 0, that means it appear only in string t
+        	// If it does not contain inside map, right away it only appear in string t
             if(map.containsKey(c) && map.get(c) == 0 || !map.containsKey(c)){
                 return c;
             } else {
+            	// Update the value by subtracting one
                 map.put(c, map.get(c) - 1);
             }
         }
