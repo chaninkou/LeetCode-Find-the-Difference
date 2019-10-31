@@ -4,7 +4,7 @@ public class Main {
 	public static void main(String[] args) {
 		String s = "abcd";
 		
-		String t = "bcda";
+		String t = "bcdae";
 		
 		System.out.println("Input S:" + s);
 		
