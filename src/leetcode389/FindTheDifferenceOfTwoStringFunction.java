@@ -1,4 +1,4 @@
-package findDifference;
+package leetcode389;
 
 import java.util.HashMap;
 
